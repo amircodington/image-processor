@@ -1,9 +1,8 @@
 import os
 import sys
-
-from PIL import Image
 from pathlib import Path
 from image_processor import ImageProcessor
+
 
 def get_args():
     if len(sys.argv) != 3:
